@@ -1,18 +1,19 @@
 
-import './App.css';
+import { Navbar } from 'react-bootstrap';
+import AddHelplineNumberForm from './components/AddHelplineNumberForm';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Home from './components/Home';
-import Search from './components/Search';
-import Test from './components/Test';
+import SearchBar from './components/Searchbar';
+
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Search/>
-      <Home/>
-      <Test/>
+      <Navbar/>
+      {/* <SearchBar/>
+      <AddHelplineNumberForm/> */}
+    
       <Footer/>
     </div>
   );

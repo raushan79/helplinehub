@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
-    <Footer >
-     Footer content goes here
+    <footer className="bg-gray-800 text-white p-4 fixed bottom-0 w-full">
+      <div className="container mx-auto text-center">
+        <p className="text-sm">&copy; 2023 - Helpline Numbers App</p>
+      </div>
+    </footer>
+  );
+};
 
-    </Footer>
-  )
-}
-
-export default Footer
+export default Footer;
